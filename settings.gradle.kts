@@ -8,4 +8,4 @@ pluginManagement {
 
 rootProject.name = "otuskotlin-simpleads"
 
-include("common-backend")
+include("ok-simpleads-common-be")

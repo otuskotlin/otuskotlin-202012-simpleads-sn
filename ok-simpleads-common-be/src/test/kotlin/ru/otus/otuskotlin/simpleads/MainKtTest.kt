@@ -6,6 +6,10 @@ import io.kotest.matchers.shouldNotBe
 
 class MainKtTest : FunSpec({
 
+    test("main") {
+        main() shouldNotBe Any()
+    }
+
     test("sum") {
         sum(10, 5) shouldBe 15
         sum(10, 5) shouldNotBe 20
