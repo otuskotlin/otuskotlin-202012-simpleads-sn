@@ -4,6 +4,7 @@ class Main
 
 fun main() {
     println("Hello world")
+    println(sum(1, 2))
 }
 
 fun sum(a: Int, b: Int): Int {
